@@ -17,8 +17,8 @@ class DishDetail extends Component
                    &nbsp;
                    {new Intl.DateTimeFormat('en-US',
                    { year: 'numeric',
-                     month: 'long',
-                     day: '2-digit' }).format(new Date(comment.date))}
+                     month: 'short',
+                     day: '2-digit' }).format(new Date(Date.parse(comment.date)))}
                    </p>
                </li>
            )
@@ -42,7 +42,7 @@ class DishDetail extends Component
                         <CardImg width="100%" src={dish.image} alt={dish.name}/>
                         <CardBody>
                         <CardTitle>{dish.name}</CardTitle>
-                        <CardText>{dish. description}</CardText>
+                        <CardText>{dish.description}</CardText>
                         </CardBody>
                     </Card>
                 </div>

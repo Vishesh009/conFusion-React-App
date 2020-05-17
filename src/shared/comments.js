@@ -84,7 +84,7 @@ export const COMMENTS =
         id: 10,
         dishId: 2,
         rating: 5,
-        comments: "Imagine all the eatables, living in conFusion!",
+        comment: "Imagine all the eatables, living in conFusion!",
         author: "John Lemon",
         date: "2012-10-16T17:57:28.556094Z"
     },
@@ -132,7 +132,7 @@ export const COMMENTS =
         id: 16,
         dishId: 3,
         rating: 4,
-        comments: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+        comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
         author: "Paul McVites",
         date: "2014-09-05T17:57:28.556094Z"
     },
@@ -160,4 +160,4 @@ export const COMMENTS =
         author: "25 Cent",
         date: "2011-12-02T17:57:28.556094Z"
     }
-];
+]

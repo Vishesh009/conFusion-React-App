@@ -5,11 +5,10 @@ import { NavLink } from 'react-router-dom';
 class Header extends Component {
     constructor(props) {
         super(props);
-    
-        this.toggleNav = this.toggleNav.bind(this);
         this.state = {
           isNavOpen: false
         };
+        this.toggleNav = this.toggleNav.bind(this);
       }
 
       toggleNav() {
@@ -30,7 +29,7 @@ class Header extends Component {
                             <NavItem>
                                 <NavLink className="nav-link"  to='/home'><span className="fa fa-home fa-lg"></span> Home</NavLink>
                             </NavItem>
-                            <NavItem>
+                            <NavItem> 
                                 <NavLink className="nav-link" to='/aboutus'><span className="fa fa-info fa-lg"></span> About Us</NavLink>
                             </NavItem>
                             <NavItem>

@@ -3,10 +3,6 @@ import { DISHES } from '../shared/dishes';
 import { baseUrl } from '../shared/baseUrl';
 
 
-export const addComment = ( dishId, rating, author, comment ) => ({
-    type: ActionTypes.ADD_COMMENT,
-    payload: comment
-});
 
 export const addComment = (comment) => ({
     type: ActionTypes.ADD_COMMENT,
@@ -42,8 +38,6 @@ export const postComment = (dishId, rating, author, comment) => (dispatch) => {
             }
         },
         error => {
-                var error = new Error('Error ' + response.status);
-                error.response = response;
                 throw error;
         })
         .then(response => response.json())

@@ -3,9 +3,9 @@ conFusion-React
 Demo Website of Ristorante con fusion developed during Coursera's Front-End Web Development with React
 How to launch the project locally
 
-Clone the repository from : "https://github.com/harshendrashah/conFusion-React.git "
+Clone the repository from : "https://github.com/Vishesh009/confusion-React-App.git "
 
-git clone --recursive https://github.com/harshendrashah/conFusion-React.git
+git clone --recursive https://github.com/Vishesh009/confusion-React-App.git
 For launching the project:
 
     Start the server using: json-server --watch db.json -d 2000 -p 3001
